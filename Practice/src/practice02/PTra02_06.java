@@ -8,6 +8,7 @@ package practice02;
 
 public class PTra02_06 {
 	public static void main(String[] args) {
+		
 		int x = 10;
 		int y = 50;
 
@@ -16,6 +17,12 @@ public class PTra02_06 {
 
 		// ★ 変数 x, y の値をリテラルの数字を使わずに入れ替えてください
 		// ※プログラムは何行書いても良いです
+		int z = x;
+		x = y;
+		y = z;
+		
+
+	
 
 
 		// ここから下は修正しないでください
