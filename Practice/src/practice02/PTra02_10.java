@@ -22,8 +22,8 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
-		float coffee2 = 120 * 1.08F;
-		float snack2 = 200 * 1.08F;
+		float coffee2 = coffee * 1.08F;
+		float snack2 = snack * 1.08F;
 
 		System.out.println(coffee2 * 2 );
 		System.out.println(snack2 );
