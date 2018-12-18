@@ -18,5 +18,41 @@ public class PTra03_09 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
+
+		java.util.Scanner scanner = new java.util.Scanner(System.in);
+
+		System.out.println("0～6までの数字を入力");
+
+		String line = scanner.nextLine();
+
+		int num = Integer.parseInt(line);
+
+
+		if(num == 0) {
+			System.out.println("0:日曜");
+
+		}else if(num == 1) {
+			System.out.println("1:月曜");
+
+		}else if(num == 2) {
+			System.out.println("2:火曜");
+
+		}else if(num == 3) {
+			System.out.println("3:水曜");
+
+		}else if(num == 4) {
+			System.out.println("4:木曜");
+
+		}else if(num == 5) {
+			System.out.println("5:金曜");
+
+		}else if(num == 6) {
+			System.out.println("6:土曜");
+
+		}else {
+			System.out.println("0～6の整数を入力してください");
+		}
+
+
 	}
 }
