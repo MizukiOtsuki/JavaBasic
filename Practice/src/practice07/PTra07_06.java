@@ -23,8 +23,6 @@ public class PTra07_06 {
 
 			for(int j = 0; j <array[i].length; j++) {
 
-				if(j < array[i].length)
-
 				sum += array[i][j];
 
 
