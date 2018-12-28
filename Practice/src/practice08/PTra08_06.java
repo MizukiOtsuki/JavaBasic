@@ -14,6 +14,10 @@ public class PTra08_06 {
 		dispValue(319.569);
 		dispValue('島');
 
+
+
+
+
 	}
 
 	/*
@@ -25,16 +29,36 @@ public class PTra08_06 {
 	 *
 	 * 引数で渡された値の前後に 「 」 を付与して出力するメソッド（"「"と引数と"」"の連結）
 	 */
+
+
 	public static void dispValue(String message) {
 		System.out.println("「" + message + "」");
 	}
 
+
+
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
 
+	public static void dispValue(int num) {
 
+		System.out.println("「" + num + "」");
+
+
+	}
 	// ★ dispValueを引数doubleでオーバーロードしてください。処理は同じ
 
+	public static void dispValue(double num) {
+
+		System.out.println("「" + num + "」");
+
+	}
 
 	// ★ dispValueを引数charでオーバーロードしてください。処理は同じ
+
+	public static void dispValue(char c) {
+
+		System.out.println("「" + c + "」");
+
+	}
 
 }
