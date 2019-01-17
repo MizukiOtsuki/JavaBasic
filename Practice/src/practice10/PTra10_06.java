@@ -19,40 +19,31 @@ public class PTra10_06 {
 		 * 各carインスタンスのrunメソッドを実行して、それぞれ「目的地にまでn時間かかりました。残りのガソリンは、xリットルです」を出力してください。
 		 */
 
-
 		Car car1 = new Car();
-
-		car1.color = "Blue";
-
-		car1.gasoline = 40;
+			car1.color = "Blue";
+			car1.gasoline = 40;
 
 
 		 Car car2 = new Car();
-
-		 car2.color = "Black";
-
-		 car2.gasoline = 60;
+		 	car2.color = "Black";
+		 	car2.gasoline = 60;
 
 
 		 Car car3 = new Car();
-
-		 car3.color = "Green";
-
-		 car3.gasoline = 70;
+		 	car3.color = "Green";
+		 	car3.gasoline = 70;
 
 
        final int distance = 300;
-
-
+       
 
        int n1 = 0;
+       
        int count1 = 0;
-
 
        while(n1 < distance) {
 
 			int run1 = car1.run();
-
 
 			if(run1 < 0) {
 				System.out.println("目的地に到達できませんでした");
@@ -64,7 +55,6 @@ public class PTra10_06 {
 			count1++;
 
 			}
-
        }
 
        if(n1 > distance) {
