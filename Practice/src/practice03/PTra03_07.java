@@ -48,7 +48,19 @@ public class PTra03_07 {
 
 		}else {
 			System.out.println("選択したのは,1～5以外です");
+
 		}
+
+		/* 間違いではないけど、こっちのほうが楽！
+
+		  	if (num < 1 || num > 5) {
+
+			System.out.println("選択したのは,1～5以外です");
+			} else {
+			System.out.println(num);
+			}
+		*/
+
 
 
 	}

@@ -62,6 +62,11 @@ public class Player {
 	}
 
 
+	public String toString() {
+		return position + "," + name + "," + country + "," + team;
+
+	}
+
 
 
 }

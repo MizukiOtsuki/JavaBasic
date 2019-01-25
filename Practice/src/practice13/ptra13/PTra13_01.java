@@ -25,7 +25,7 @@ public class PTra13_01 extends Animal{
 
 		 pra.setName("人");
 
-		 pra.getName();
+
 
 
 		// ★ PTra13_01の持つインスタンスメソッドrunとbreathを実行してしてください

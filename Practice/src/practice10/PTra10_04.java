@@ -16,7 +16,9 @@ public class PTra10_04 {
 
 		// ★ User型の変数が3つ入る配列usersを宣言・確保してください
 
-		User[] users = new User[2];
+		User[] users = new User[3];
+		
+		
 
 
 		// ★ java.util.Scannerクラスをインスタンス化し、変数scannerに代入してください
